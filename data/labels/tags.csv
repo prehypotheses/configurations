@@ -1,0 +1,12 @@
+tag,annotation,annotation_name,category,category_name,group
+O,O,miscellaneous,O,miscellaneous,Miscellaneous
+B-GEO,B,beginning,GEO,geography,Geography
+B-GPE,B,beginning,GPE,geo-political-term,Geopolitical Term
+B-TIM,B,beginning,TIM,time,Time
+B-ORG,B,beginning,ORG,organisation,Organisation
+I-GEO,I,inside,GEO,geography,Geography
+B-PER,B,beginning,PER,person,Person
+I-PER,I,inside,PER,person,Person
+I-ORG,I,inside,ORG,organisation,Organisation
+I-TIM,I,inside,TIM,time,Time
+I-GPE,I,inside,GPE,geo-political-term,Geopolitical Term

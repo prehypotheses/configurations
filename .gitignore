@@ -1,0 +1,15 @@
+# Dependencies
+.psci_modules
+.spago
+bower_components
+node_modules
+
+# Infrastructure
+create-bucket.json
+
+# Generated files
+.psci
+output
+
+# IntelliJ IDEA
+.idea

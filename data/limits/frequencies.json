@@ -1,0 +1,26 @@
+{
+  "GEO": {
+    "minimum": 0.10,
+    "maximum": 0.25
+  },
+  "GPE": {
+    "minimum": 0.075,
+    "maximum": 0.20
+  },
+  "ORG": {
+    "minimum": 0.05,
+    "maximum": 0.15
+  },
+  "PER": {
+    "minimum": 0.20,
+    "maximum": 0.50
+  },
+  "TIM": {
+    "minimum": 0.075,
+    "maximum": 0.10
+  },
+  "O": {
+    "minimum": 98.80,
+    "maximum": 99.50
+  }
+}
