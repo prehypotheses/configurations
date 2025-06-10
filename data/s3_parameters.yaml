@@ -6,4 +6,3 @@ parameters:
   path_internal_artefacts: 'artefacts/'
   external: ''
   configurations: ''
-  store: ''
