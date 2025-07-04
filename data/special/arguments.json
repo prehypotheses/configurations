@@ -1,0 +1,9 @@
+{
+  "preference": ["O", "art-broadcastprogram", "art-film", "art-music", "art-painting", "art-writtenart",
+    "building-airport", "building-hospital", "building-hotel", "building-library", "building-theatre",
+    "event-attack/battle/war/militaryconflict", "event-disaster", "event-election", "event-protest", "event-sportsevent",
+    "location-bodiesofwater", "location-GPE", "location-island", "location-mountain",
+    "organization-company", "organization-education", "organization-government/governmentagency",
+    "organization-media/newspaper",  "organization-politicalparty",
+    "person", "product-weapon"]
+}
