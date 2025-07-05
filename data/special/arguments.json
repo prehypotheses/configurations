@@ -21,5 +21,7 @@
     "organization-showorganization": "organisation-showorganisation",
     "organization-sportsleague": "organisation-sportsleague",
     "organization-sportsteam": "organisation-sportsteam",
-    "person-artist/author": "person-creator"}
+    "person-artist/author": "person-creator"},
+  "fine": ["art", "building", "event", "location", "organization", "other", "product"],
+  "coarse": ["O", "person"]
 }
