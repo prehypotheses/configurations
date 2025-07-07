@@ -1,3 +1,4 @@
-source: "data/special" # The source data prefix.  Thus far, either data/raw or data/special.  The former is the original FEW NERD (Few-Shot Named Entity Recognition Data), whilst the latter focuses on fewer, unambiguous, labels.
+source: "data/special" # The data-source prefix.  Thus far, either data/raw or data/special.  The former is the original FEW NERD (Few-Shot Named Entity Recognition Data), whilst the latter focuses on fewer, unambiguous, labels.
+destinations: "data/tokens" # The data-destination prefix.
 pretrained_model_name: "google-t5/t5-small" # The name of the pre-trained architecture in focus
 architecture: "t5" # The large language model architecture
