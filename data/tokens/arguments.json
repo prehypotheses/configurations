@@ -1,0 +1,5 @@
+{
+  "source": "data/special",
+  "pretrained_model_name": "google-t5/t5-small",
+  "architecture": "t5"
+}
