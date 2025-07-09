@@ -2,7 +2,7 @@
   "continuous": {
     "learning_rate": [
       0.0000160,
-      0.0000175
+      0.0000200
     ],
     "weight_decay": [
       0.0,
