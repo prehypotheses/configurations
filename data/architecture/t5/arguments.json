@@ -22,5 +22,7 @@
   "task": "ner",
   "pretrained_model_name": "google-t5/t5-small",
   "architecture": "t5",
-  "scheduler": "ASHAScheduler"
+  "scheduler": "ASHAScheduler",
+  "seed": 5,
+  "fraction": 0.1
 }
