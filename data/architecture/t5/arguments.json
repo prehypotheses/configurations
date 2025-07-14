@@ -24,5 +24,7 @@
   "architecture": "t5",
   "scheduler": "ASHAScheduler",
   "seed": 5,
-  "fraction": 0.1
+  "fraction": 0.1,
+  "raw_": "data/special",
+  "tokens_": "data/tokens"
 }
