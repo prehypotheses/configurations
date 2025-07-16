@@ -1,16 +1,11 @@
 {
-  "preference": ["O", "art-broadcastprogram", "art-film", "art-music", "art-painting", "art-writtenart",
-    "building-airport", "building-hospital", "building-hotel", "building-library", "building-theater",
-    "event-attack/battle/war/militaryconflict", "event-disaster", "event-election",
-    "event-protest", "event-sportsevent",
-    "location-bodiesofwater", "location-GPE", "location-island", "location-mountain",
-    "organization-company", "organization-education", "organization-government/governmentagency",
-    "organization-media/newspaper",  "organization-politicalparty",
-    "person", "product-weapon"],
+  "preference": ["O", "art", "building", "event-attack/battle/war/militaryconflict", "event-disaster", "event-election",
+    "location-bodiesofwater", "location-GPE", "location-island", "location-mountain", "organization", "person", "product"],
   "rename": {
     "building-theater": "building-theatre",
     "event-attack/battle/war/militaryconflict": "event-conflict",
     "location-road/railway/highway/transit": "location-transport",
+    "organization": "organisation",
     "organization-company": "organisation-company",
     "organization-education": "organisation-education",
     "organization-government/governmentagency": "organisation-government",
@@ -22,6 +17,6 @@
     "organization-sportsleague": "organisation-sportsleague",
     "organization-sportsteam": "organisation-sportsteam",
     "person-artist/author": "person-creator"},
-  "fine": ["art", "building", "event", "location", "organization", "other", "product"],
-  "coarse": ["O", "person"]
+  "fine": ["event", "location", "other"],
+  "coarse": ["O", "art", "building", "organization", "person", "product"]
 }
