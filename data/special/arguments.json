@@ -1,6 +1,5 @@
 {
-  "preference": ["O", "art", "building", "event-attack/battle/war/militaryconflict", "event-disaster", "event-election",
-    "location-bodiesofwater", "location-GPE", "location-island", "location-mountain", "organization", "person", "product"],
+  "preference": ["O", "art", "building", "event-attack/battle/war/militaryconflict", "location-bodiesofwater", "location-GPE", "location-island", "location-road/railway/highway/transit", "organization", "person", "product-weapon"],
   "rename": {
     "building-theater": "building-theatre",
     "event-attack/battle/war/militaryconflict": "event-conflict",
@@ -17,6 +16,6 @@
     "organization-sportsleague": "organisation-sportsleague",
     "organization-sportsteam": "organisation-sportsteam",
     "person-artist/author": "person-creator"},
-  "fine": ["event", "location", "other"],
-  "coarse": ["O", "art", "building", "organization", "person", "product"]
+  "fine": ["event", "location", "other", "product"],
+  "coarse": ["O", "art", "building", "organization", "person"]
 }
