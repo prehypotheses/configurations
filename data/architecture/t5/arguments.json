@@ -1,9 +1,9 @@
 {
   "MAX_LENGTH": 512,
-  "TRAIN_BATCH_SIZE": 16,
-  "VALID_BATCH_SIZE": 16,
-  "TEST_BATCH_SIZE": 8,
-  "EPOCHS": 6,
+  "TRAIN_BATCH_SIZE": 8,
+  "VALID_BATCH_SIZE": 8,
+  "TEST_BATCH_SIZE": 4,
+  "EPOCHS": 2,
   "LEARNING_RATE": 0.0000165,
   "WEIGHT_DECAY": 0.01,
   "MAX_GRADIENT_NORM": 10,
@@ -14,7 +14,7 @@
   "N_GPU": 1,
   "N_TRIALS": 2,
   "N_INSTANCES": null,
-  "save_total_limit": 3,
+  "save_total_limit": 2,
   "early_stopping_patience": 3,
   "perturbation_interval": 2,
   "quantile_fraction": 0.25,
@@ -24,7 +24,7 @@
   "architecture": "t5",
   "scheduler": "ASHAScheduler",
   "seed": 5,
-  "fraction": 0.25,
+  "fraction": 0.005,
   "raw_": "data/special",
   "tokens_": "data/tokens"
 }
