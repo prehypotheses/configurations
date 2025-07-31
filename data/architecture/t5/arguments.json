@@ -26,5 +26,11 @@
   "seed": 5,
   "fraction": 0.005,
   "raw_": "data/special",
-  "tokens_": "data/tokens"
+  "tokens_": "data/tokens",
+  "experiment_name": "FEW",
+  "experiment_tags": {
+    "project": "custom token classification",
+    "type": "natural language processing",
+    "task": "token classification",
+    "description": "The fine-tuning of pre-trained large language model architectures for token classification tasks."}
 }
