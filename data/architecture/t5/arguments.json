@@ -27,7 +27,7 @@
   "fraction": 0.005,
   "raw_": "data/special",
   "tokens_": "data/tokens",
-  "experiment_name": "Few Vertex",
+  "experiment_name": "Vertex",
   "experiment_tags": {
     "project": "custom token classification",
     "type": "natural language processing",
