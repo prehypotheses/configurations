@@ -10,7 +10,7 @@
   "N_TRAIN": null,
   "N_VALID": null,
   "N_TEST": null,
-  "N_CPU": 8,
+  "N_CPU": 4,
   "N_GPU": 1,
   "N_TRIALS": 2,
   "N_INSTANCES": null,
