@@ -24,7 +24,7 @@
   "architecture": "t5",
   "scheduler": "ASHAScheduler",
   "seed": 5,
-  "fraction": 0.65,
+  "fraction": 0.1,
   "raw_": "data/special",
   "tokens_": "data/tokens",
   "experiment_name": "Vertex",
