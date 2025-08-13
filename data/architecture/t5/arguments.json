@@ -12,7 +12,7 @@
   "N_TEST": null,
   "N_CPU": 8,
   "N_GPU": 1,
-  "N_TRIALS": 4,
+  "N_TRIALS": 2,
   "N_INSTANCES": null,
   "save_total_limit": 3,
   "early_stopping_patience": 3,
