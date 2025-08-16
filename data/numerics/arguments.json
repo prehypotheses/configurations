@@ -1,3 +1,4 @@
 {
-  "task": "ner"
+  "task": "ner",
+  "project_key_name": "FNTC"
 }
