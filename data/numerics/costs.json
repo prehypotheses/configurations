@@ -1,0 +1,27 @@
+{
+  "index": [
+    "fnr",
+    "fpr"
+  ],
+  "columns": [
+    "art",
+    "building",
+    "event-conflict",
+    "location-GPE",
+    "location-bodiesofwater",
+    "location-island",
+    "location-transport",
+    "organisation",
+    "person",
+    "product-weapon",
+    "O"
+  ],
+  "data": [
+    [
+      35, 35, 65, 60, 35, 40, 55, 35, 59, 65, 35
+    ],
+    [
+      60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60
+    ]
+  ]
+}
