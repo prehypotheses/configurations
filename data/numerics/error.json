@@ -1,0 +1,46 @@
+{
+  "art": {
+    "fnr": 0.035,
+    "fpr": 0.05
+  },
+  "building": {
+    "fnr": 0.05,
+    "fpr": 0.075
+  },
+  "event-conflict": {
+    "fnr": 0.015,
+    "fpr": 0.075
+  },
+  "location-GPE": {
+    "fnr": 0.025,
+    "fpr": 0.05
+  },
+  "location-bodiesofwater": {
+    "fnr": 0.05,
+    "fpr": 0.075
+  },
+  "location-island": {
+    "fnr": 0.05,
+    "fpr": 0.075
+  },
+  "location-transport": {
+    "fnr": 0.05,
+    "fpr": 0.075
+  },
+  "organisation": {
+    "fnr": 0.035,
+    "fpr": 0.075
+  },
+  "person": {
+    "fnr": 0.035,
+    "fpr": 0.075
+  },
+  "product-weapon": {
+    "fnr": 0.015,
+    "fpr": 0.065
+  },
+  "O": {
+    "fnr": 0.05,
+    "fpr": 0.075
+  }
+}
