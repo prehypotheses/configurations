@@ -11,7 +11,7 @@
     "minimum": 0.025,
     "maximum": 0.150
   },
-  "location-GPE": {
+  "location-gpe": {
     "minimum": 0.200,
     "maximum": 0.500
   },
