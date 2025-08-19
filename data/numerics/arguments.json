@@ -1,4 +1,5 @@
 {
   "task": "ner",
-  "project_key_name": "FNTC"
+  "project_key_name": "FNTC",
+  "tags_key": "{bucket}/tags/special/tags.csv"
 }
