@@ -1,7 +1,7 @@
 {
-  "preference": ["O", "art", "building", "event-attack/battle/war/militaryconflict", "location-bodiesofwater", "location-GPE", "location-island", "location-road/railway/highway/transit", "organization", "person", "product-weapon"],
-  "category": {"O": "miscellaneous", "art": "art", "building": "building", "event-attack/battle/war/militaryconflict": "conflict", "location-bodiesofwater": "bodies-of-water", "location-GPE": "geo-political-entity", "location-island": "island", "location-road/railway/highway/transit": "transport", "organization": "organisation", "person": "person", "product-weapon": "weapon"},
-  "group": {"O": "miscellaneous", "art": "art", "building": "building", "event-attack/battle/war/militaryconflict": "event", "location-bodiesofwater": "location", "location-GPE": "location", "location-island": "location", "location-road/railway/highway/transit": "location", "organization": "organisation", "person": "person", "product-weapon": "product"},
+  "preference": ["O", "art", "building", "event", "location", "organization", "person", "product-weapon"],
+  "category": {"O": "miscellaneous", "art": "art", "building": "building", "event": "event",  "location": "location", "organization": "organisation", "person": "person", "product-weapon": "weapon"},
+  "group": {"O": "miscellaneous", "art": "art", "building": "building", "event": "event", "location": "location", "organization": "organisation", "person": "person", "product-weapon": "product"},
   "rename": {
     "building-theater": "building-theatre",
     "event-attack/battle/war/militaryconflict": "event-conflict",
@@ -19,6 +19,6 @@
     "organization-sportsleague": "organisation-sportsleague",
     "organization-sportsteam": "organisation-sportsteam",
     "person-artist/author": "person-creator"},
-  "fine": ["event", "location", "other", "product"],
-  "coarse": ["O", "art", "building", "organization", "person"]
+  "fine": ["product", "other"],
+  "coarse": ["O", "art", "building", "event", "location", "organization", "person"]
 }
