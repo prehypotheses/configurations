@@ -6,11 +6,8 @@
   "columns": [
     "art",
     "building",
-    "event-conflict",
-    "location-gpe",
-    "location-bodiesofwater",
-    "location-island",
-    "location-transport",
+    "event",
+    "location",
     "organisation",
     "person",
     "product-weapon",
@@ -18,10 +15,10 @@
   ],
   "data": [
     [
-      35, 35, 65, 60, 35, 40, 55, 35, 59, 65, 35
+      35, 35, 65, 35, 35, 65, 85, 30
     ],
     [
-      25, 25, 35, 25, 25, 25, 25, 25, 25, 40, 25
+      15, 15, 30, 15, 15, 35, 39, 35
     ]
   ]
 }
