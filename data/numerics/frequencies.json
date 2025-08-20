@@ -7,25 +7,13 @@
     "minimum": 0.050,
     "maximum": 0.200
   },
-  "event-conflict": {
+  "event": {
     "minimum": 0.025,
     "maximum": 0.150
   },
-  "location-gpe": {
+  "location": {
     "minimum": 0.200,
     "maximum": 0.500
-  },
-  "location-bodiesofwater": {
-    "minimum": 0.025,
-    "maximum": 0.080
-  },
-  "location-island": {
-    "minimum": 0.015,
-    "maximum": 0.100
-  },
-  "location-transport": {
-    "minimum": 0.035,
-    "maximum": 0.075
   },
   "organisation": {
     "minimum": 0.150,
