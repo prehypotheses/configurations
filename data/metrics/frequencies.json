@@ -1,0 +1,34 @@
+{
+  "art": {
+    "minimum": 0.10,
+    "maximum": 0.25
+  },
+  "building": {
+    "minimum": 0.050,
+    "maximum": 0.200
+  },
+  "event": {
+    "minimum": 0.025,
+    "maximum": 0.150
+  },
+  "gpe": {
+    "minimum": 0.200,
+    "maximum": 0.500
+  },
+  "organisation": {
+    "minimum": 0.150,
+    "maximum": 0.400
+  },
+  "person": {
+    "minimum": 0.200,
+    "maximum": 0.750
+  },
+  "weapon": {
+    "minimum": 0.050,
+    "maximum": 0.095
+  },
+  "O": {
+    "minimum": 97.655,
+    "maximum": 99.225
+  }
+}

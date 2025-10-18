@@ -1,0 +1,24 @@
+{
+  "index": [
+    "fnr",
+    "fpr"
+  ],
+  "columns": [
+    "art",
+    "building",
+    "event",
+    "gpe",
+    "organisation",
+    "person",
+    "weapon",
+    "O"
+  ],
+  "data": [
+    [
+      35, 35, 65, 35, 35, 65, 85, 30
+    ],
+    [
+      15, 15, 30, 15, 15, 35, 39, 35
+    ]
+  ]
+}
