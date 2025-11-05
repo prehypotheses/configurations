@@ -15,16 +15,6 @@ Ray's <a href="https://docs.ray.io/en/latest/tune/api/doc/ray.tune.schedulers.Po
 
 These parameters are <a href="https://docs.ray.io/en/latest/tune/api/doc/ray.tune.schedulers.PopulationBasedTraining.html" target="_blank">defined within the population based training pages</a>.  The hyperparameter spaces are set within the `hyperspace.json` files.
 
-<br>
-
-### Maximum Sequence Length
-
-The `MAX_LENGTH` argument of an `arguments.json` is in place for an architecture's maximum sequence length (`max_position_embeddings`) parameter.  Thus far, the project depends on the default values, i.e., the default `max_position_embeddings` values
-
-* [DistilBERT](https://huggingface.co/docs/transformers/model_doc/distilbert#transformers.DistilBertConfig)
-* [BERT](https://huggingface.co/docs/transformers/model_doc/bert#transformers.BertConfig)
-
-It is $512$ in each case.
 
 <br>
 <br>
