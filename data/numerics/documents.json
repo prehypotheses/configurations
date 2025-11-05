@@ -1,8 +1,0 @@
-{
-	"index": ["minimum", "maximum"],
-	"columns": ["n_documents", "n_words_per_document"],
-	"data": [
-		[17000, 125],
-		[23000, 250]
-	]
-}
