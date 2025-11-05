@@ -80,6 +80,11 @@ For example, a dictionary named `TrafficTokenClassicationProject` for a traffic 
 }
 ```
 
+Within a package, interactions with <a href="https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html" target="_blank">AWS Secrets Manager</a> are via the $src/functions/secret.py$ class.  Therein
+
+* secret_id:  Is the unique name-string of the secret in focus, e.g., `TrafficTokenClassicationProject`.
+* node: This applies if the secret is a dictionary, i.e., a JSON format.  Then `node` is the name of a name-value pair; `value` is the secret.
+
 
 <br>
 <br>
