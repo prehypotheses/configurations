@@ -14,7 +14,7 @@ Each project has a GitHub Organization hub, and each hub has a <q>configurations
 
 <br>
 
-Foremost, each hub hosts an overarching configuration file - <a href="data/s3_parameters.json">data/s3_parameters.json</a> - which outlines a few settings for each project's specific Amazon S3 (Simple Storage Service) sections; <a href="data/s3_parameters.yaml">data/s3_parameters.yaml</a> is the YAML format.  Via <a href="data/s3_parameters.json">data/s3_parameters.json</a>, and further settings, repositories, i.e., packages, retrieve data from, and deliver calculations to, project specific Amazon S3 sections.
+Foremost, each hub hosts an overarching configuration file - <a href="data/s3_parameters.json">data/s3_parameters.json</a> - which outlines a few settings for each project's specific Amazon S3 (Simple Storage Service) sections; <a href="data/s3_parameters.yaml">data/s3_parameters.yaml</a> is the <abbr title="YAML Ain't Markup Language">YAML</abbr> (YAML Ain't Markup Language) format.  Via <a href="data/s3_parameters.json">data/s3_parameters.json</a>, and further settings, repositories, i.e., packages, retrieve data from, and deliver calculations to, project specific Amazon S3 sections.
 
 <br>
 
@@ -79,6 +79,11 @@ For example, a dictionary named `TrafficTokenClassicationProject` for a traffic 
   "database-endpoint": "..."
 }
 ```
+
+Within a package, interactions with <a href="https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html" target="_blank">AWS Secrets Manager</a> are via the *src/functions/secret.py* class.  Therein
+
+* secret_id:  Is the unique name-string of the secret in focus, e.g., `TrafficTokenClassicationProject`.
+* node: This applies if the secret is a dictionary, i.e., a <abbr title="JavaScript Object Notation">JSON</abbr> (JavaScript Object Notation) format.  Then `node` is the name of a name-value pair; `value` is the secret.
 
 
 <br>
