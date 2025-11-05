@@ -28,9 +28,9 @@ Next, each of the hub's computation repositories has its own configurations dire
 
 <br>
 
-### Architecture
-
 A few notes about the contents of an architecture's configurations files.
+
+<br>
 
 #### Arguments for Population Based Training
 
