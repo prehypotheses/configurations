@@ -1,6 +1,14 @@
 <br>
 
-## Configurations
+* [configurations](#configurations)
+  * [data/architecture](#architecture)
+* [extra](#extra)
+  * [cloud platforms & secure services interactions](#cloud-platforms--secure-services-interactions)
+  * [github & assets delivery](#github--assets-delivery)
+
+<br>
+
+## CONFIGURATIONS
 
 Each project has a GitHub Organization hub, and each hub has a <q>configurations</q> repository.  
 
@@ -28,11 +36,9 @@ Next, each of the hub's computation repositories has its own configurations dire
 
 <br>
 
-### data/architecture
+### Architecture
 
 A few notes about the contents of an architecture's configurations files.
-
-<br>
 
 #### Arguments for Population Based Training
 
@@ -51,13 +57,13 @@ A few of the settings within an architecture's configuration file are for the <a
 <br>
 
 
-## Extra
+## EXTRA
 
 Within each computation repository, a GitHub Actions work-file includes directives that build an image of the repository.  At present, containers of a project's images are ran via Amazon Web Services.  This leads to extra configuration considerations.
 
 <br>
 
-### Cloud Platforms & Services
+### Cloud Platforms & Secure Services Interactions
 
 Some of the project's repositories, i.e., packages, have to interact with services that require authenticated and/or authorised access.  In this case, because Amazon Web Services is the computation platform, secure interactions with Amazon and other services is aided by <a href="https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html" target="_blank">AWS Secrets Manager</a>.  The set-up is via a <b>named</b>
 
@@ -106,20 +112,6 @@ Create AWS IAM (Identity & Asset Management) roles for GitHub OIDC connections.
 During the policy step, select a policy, or policies, in relation to the purpose of the role being created, e.g., for delivering images to Amazon ECR (Elastic Container Registry) ([REF: Point 8](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-idp_oidc.html#idp_oidc_Create))
 
 > ... IAM includes a list of the AWS managed and customer managed policies in your account. Select the policy to use for the permissions policy ...
-
-
-<br>
-<br>
-
-<br>
-<br>
-
-<br>
-<br>
-
-<br>
-<br>
-
 
 <br>
 <br>
