@@ -2,7 +2,11 @@
 
 ## Configurations
 
-Each project has a GitHub Organization hub, and each hub has a <q>configurations</q> repository.  Foremost, each hub hosts an overarching configuration file - <a href="data/s3_parameters.json">data/s3_parameters.json</a> - which outlines a few settings for each project's specific Amazon S3 (Simple Storage Service) sections; <a href="data/s3_parameters.yaml">data/s3_parameters.yaml</a> is the YAML format.  Via <a href="data/s3_parameters.json">data/s3_parameters.json</a>, and further settings, repositories, i.e., packages, retrieve data from, and deliver calculations to, project specific Amazon S3 sections.
+Each project has a GitHub Organization hub, and each hub has a <q>configurations</q> repository.  
+
+<br>
+
+Foremost, each hub hosts an overarching configuration file - <a href="data/s3_parameters.json">data/s3_parameters.json</a> - which outlines a few settings for each project's specific Amazon S3 (Simple Storage Service) sections; <a href="data/s3_parameters.yaml">data/s3_parameters.yaml</a> is the YAML format.  Via <a href="data/s3_parameters.json">data/s3_parameters.json</a>, and further settings, repositories, i.e., packages, retrieve data from, and deliver calculations to, project specific Amazon S3 sections.
 
 <br>
 
