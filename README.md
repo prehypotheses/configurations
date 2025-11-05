@@ -1,6 +1,7 @@
 <br>
 
-These notes describe some of the arguments of the configurations.
+Each project has a GitHub Organization hub, and each hub has a <q>configurations</q> repository.  Each of the hub's computation repositories has its own configurations directories.  Additionally, a pair of overarching configuration files outline a few settings for the project's cloud environment.
+
 
 <br>
 
