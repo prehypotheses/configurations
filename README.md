@@ -1,7 +1,7 @@
 <br>
 
 * [configurations](#configurations)
-  * [data/architecture](#architecture)
+  * [deep learning architecture](#deep-learning-architecture)
 * [extra](#extra)
   * [cloud platforms & secure services interactions](#cloud-platforms--secure-services-interactions)
   * [github & assets delivery](#github--assets-delivery)
@@ -36,7 +36,7 @@ Next, each of the hub's computation repositories has its own configurations dire
 
 <br>
 
-### Architecture
+### Deep Learning Architecture
 
 A few notes about the contents of an architecture's configurations files.
 
