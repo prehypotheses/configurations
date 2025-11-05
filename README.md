@@ -41,6 +41,11 @@ Ray's <a href="https://docs.ray.io/en/latest/tune/api/doc/ray.tune.schedulers.Po
 
 These parameters are <a href="https://docs.ray.io/en/latest/tune/api/doc/ray.tune.schedulers.PopulationBasedTraining.html" target="_blank">defined within the population based training pages</a>.  The hyperparameter spaces are set within the `hyperspace.json` files.
 
+<br>
+
+#### Training Arguments
+
+A few of the settings within an architecture's configuration file are for the <a href="https://huggingface.co/docs/transformers/main_classes/trainer#transformers.TrainingArguments" target="_blank">Training Arguments</a> class of the `transformers` library.  Hence, study the parameters descriptions of the <a href="https://huggingface.co/docs/transformers/main_classes/trainer#transformers.TrainingArguments" target="_blank">class</a>.
 
 <br>
 <br>
@@ -91,7 +96,7 @@ Secure delivery of items, e.g., built images, configuration files, etc., to AWS 
 
 #### Identity & Asset Management Role
 
-Subsequently, create an AWS IAM (Identity & Asset Management) role for GitHub OIDC connections.
+Create AWS IAM (Identity & Asset Management) roles for GitHub OIDC connections.
 
 <ul class="disc">
   <li class="disc"><a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-idp_oidc.html#idp_oidc_Create" target="_blank">create</a></li>
