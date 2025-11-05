@@ -28,6 +28,8 @@ Next, each of the hub's computation repositories has its own configurations dire
 
 <br>
 
+### data/architecture
+
 A few notes about the contents of an architecture's configurations files.
 
 <br>
@@ -40,8 +42,6 @@ Ray's <a href="https://docs.ray.io/en/latest/tune/api/doc/ray.tune.schedulers.Po
 * $resample\\_probability$
 
 These parameters are <a href="https://docs.ray.io/en/latest/tune/api/doc/ray.tune.schedulers.PopulationBasedTraining.html" target="_blank">defined within the population based training pages</a>.  The hyperparameter spaces are set within the `hyperspace.json` files.
-
-<br>
 
 #### Training Arguments
 
