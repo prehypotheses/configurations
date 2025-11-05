@@ -50,11 +50,20 @@ Within each computation repository, a GitHub Actions work-file includes directiv
 
 ### Cloud Platforms & Services
 
-Many repositories, i.e., packages, have to interact with services that require authenticated and/or authorised access.  In this case, because Amazon Web Services is the computation platform, secure interactions with Amazon and other services is via Secrets Manager.  The set-up is via a named
+Some of the project's repositories, i.e., packages, have to interact with services that require authenticated and/or authorised access.  In this case, because Amazon Web Services is the computation platform, secure interactions with Amazon and other services is aided by <a href="https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html" target="_blank">AWS Secrets Manager</a>.  The set-up is via a <b>named</b>
 
 * dictionary, or
 * key-value pair
 
+For example, a dictionary named `TrafficTokenClassicationProject` for a traffic data token classification project, wherein the dictionary set-up is
+
+```json
+{
+  "bucket": "traffic",
+  "database-username": "...",
+  "database-endpoint": "..."
+}
+```
 
 
 <br>
