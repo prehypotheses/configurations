@@ -38,29 +38,43 @@ Ray's <a href="https://docs.ray.io/en/latest/tune/api/doc/ray.tune.schedulers.Po
 These parameters are <a href="https://docs.ray.io/en/latest/tune/api/doc/ray.tune.schedulers.PopulationBasedTraining.html" target="_blank">defined within the population based training pages</a>.  The hyperparameter spaces are set within the `hyperspace.json` files.
 
 
+<br>
+<br>
+
+
 ## Extra
 
-### Cloud & Secrets
+Within each computation repository, a GitHub Actions work-file includes directives that build an image of the repository.  At present, containers of a project's images are ran via Amazon Web Services.  This leads to extra configuration considerations.
 
-> [!NOTE]
-> Upcoming
+<br>
+
+### Cloud Platforms & Services
+
+Many repositories, i.e., packages, have to interact with services that require authenticated and/or authorised access.  In this case, because Amazon Web Services is the computation platform, secure interactions with Amazon and other services is via Secrets Manager.  The set-up is via a named
+
+* dictionary, or
+* key-value pair
+
+
 
 <br>
 <br>
 
 ### GitHub & Assets Delivery
 
-At present, this project's image containers are ran via Amazon Web Services.  In aid of continuous integration, delivery, and deployment, the delivery of project assets to Amazon Web Services (AWS) is automatic, via GitHub Actions.  The key delivery items are
+In aid of continuous integration, delivery, and deployment, the delivery of project assets to Amazon Web Services (AWS) is automatic, via GitHub Actions.  The key delivery items are
+
 
 <br>
+
 
 #### GitHub OIDC
 
 Secure delivery of items, e.g., built images, configuration files, etc., to AWS is via <a href="https://docs.github.com/en/actions/security-for-github-actions/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services#adding-the-identity-provider-to-aws" target="_blank">GitHub OIDC (Open Identifier Connect) identity provider.</a>  As the link illustrates, the solution requires connection configurations within both GitHub and AWS.  The section below summarises AWS configurations vis-à-vis identity and asset management roles.
 
 
-
 <br>
+
 
 #### Identity & Asset Management Role
 
