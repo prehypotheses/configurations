@@ -1,5 +1,7 @@
 <br>
 
+## Configurations
+
 Each project has a GitHub Organization hub, and each hub has a <q>configurations</q> repository.  Foremost, each hub hosts an overarching configuration file - <a href="data/s3_parameters.json">data/s3_parameters.json</a> - which outlines a few settings for each project's specific Amazon S3 (Simple Storage Service) sections; <a href="data/s3_parameters.yaml">data/s3_parameters.yaml</a> is the YAML format.  Via <a href="data/s3_parameters.json">data/s3_parameters.json</a>, and further settings, repositories, i.e., packages, retrieve data from, and deliver calculations to, project specific Amazon S3 sections.
 
 <br>
@@ -22,11 +24,11 @@ Next, each of the hub's computation repositories has its own configurations dire
 
 <br>
 
-## Architecture
+### Architecture
 
 A few notes about the contents of an architecture's configurations files.
 
-### Arguments for Population Based Training
+#### Arguments for Population Based Training
 
 Ray's <a href="https://docs.ray.io/en/latest/tune/api/doc/ray.tune.schedulers.PopulationBasedTraining.html" target="_blank">Population Based Training Scheduler</a> includes a perturbation interval, $perturbation\\_interval$, parameter.  For more about perturbation intervals, in context, study <a href="https://docs.ray.io/en/latest/tune/examples/pbt_guide.html" target="_blank">A Guide to Population Based Training with Tune</a>.  The `arguments.json` files also include
 
@@ -34,6 +36,57 @@ Ray's <a href="https://docs.ray.io/en/latest/tune/api/doc/ray.tune.schedulers.Po
 * $resample\\_probability$
 
 These parameters are <a href="https://docs.ray.io/en/latest/tune/api/doc/ray.tune.schedulers.PopulationBasedTraining.html" target="_blank">defined within the population based training pages</a>.  The hyperparameter spaces are set within the `hyperspace.json` files.
+
+
+## Extra
+
+### Cloud & Secrets
+
+> [!NOTE]
+> Upcoming
+
+<br>
+<br>
+
+### GitHub & Assets Delivery
+
+At present, this project's image containers are ran via Amazon Web Services.  In aid of continuous integration, delivery, and deployment, the delivery of project assets to Amazon Web Services (AWS) is automatic, via GitHub Actions.  The key delivery items are
+
+<br>
+
+#### GitHub OIDC
+
+Secure delivery of items, e.g., built images, configuration files, etc., to AWS is via <a href="https://docs.github.com/en/actions/security-for-github-actions/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services#adding-the-identity-provider-to-aws" target="_blank">GitHub OIDC (Open Identifier Connect) identity provider.</a>  As the link illustrates, the solution requires connection configurations within both GitHub and AWS.  The section below summarises AWS configurations vis-à-vis identity and asset management roles.
+
+
+
+<br>
+
+#### Identity & Asset Management Role
+
+Subsequently, create an AWS IAM (Identity & Asset Management) role for GitHub OIDC connections.
+
+<ul class="disc">
+  <li class="disc"><a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-idp_oidc.html#idp_oidc_Create" target="_blank">create</a></li>
+  <li class="disc"><a href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-idp_oidc.html#idp_oidc_Create_GitHub" target="_blank">ascertain configuration</a></li>
+</ul>
+
+During the policy step, select a policy, or policies, in relation to the purpose of the role being created, e.g., for delivering images to Amazon ECR (Elastic Container Registry) ([REF: Point 8](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-idp_oidc.html#idp_oidc_Create))
+
+> ... IAM includes a list of the AWS managed and customer managed policies in your account. Select the policy to use for the permissions policy ...
+
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
+
+<br>
+<br>
 
 
 <br>
